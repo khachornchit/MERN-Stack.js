@@ -1,4 +1,5 @@
-# Security Scan Result
+# MERN Stack Development
+Full stack development with DevOps, Backend, and Front-end using docker container, Node.js, Express.js, MongoDB, and React.js.
 
 ## Setup Guide
 * git clone https://github.com/Khachornchit/mern-stack-development

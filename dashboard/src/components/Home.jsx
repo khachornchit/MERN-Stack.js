@@ -69,8 +69,8 @@ export default class Home extends Component {
                         <Form.Text className="text-muted">
                             See example data format at 
                             <a target="_blank"
-                                href="https://github.com/guardrailsio/full-stack-engineer-challenge/blob/master/example-findings.json">
-                                https://github.com/guardrailsio/full-stack-engineer-challenge/blob/master/example-findings.json
+                                href="https://github.com/Khachornchit/MERN-Stack-Development/blob/master/api/data/findings.json">
+                                sample data
                             </a>
                         </Form.Text>
                     </Form.Group>
