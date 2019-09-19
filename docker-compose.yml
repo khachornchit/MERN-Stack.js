@@ -1,0 +1,29 @@
+version: "3"
+services:
+  dashboard:
+      container_name: mern-stack-dashboard
+      image: mern-stack-dashboard
+      build: ./dashboard
+      command: serve -s build
+      environment:
+        NODE_ENV: production
+      ports:
+        - 8081:5000
+      volumes:
+        - ./dashboard:/usr/src/app
+  api:
+      container_name: mern-stack-api
+      image: mern-stack-api
+      build: ./api
+      command: node index.js
+      ports:
+        - 8082:3000
+      depends_on:
+        - mongo
+      volumes:
+        - ./api:/usr/src/app
+  mongo:
+    container_name: mern-stack-mongo
+    image: mongo
+    ports:
+      - 27017:27017
