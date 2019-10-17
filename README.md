@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/Khachornchit/MERN-Stack-Development.svg?branch=master)](https://travis-ci.org/Khachornchit/MERN-Stack-Development)
+
 # MERN Stack Development
 Full stack development with DevOps, Backend, and Front-end using docker container, Node.js, Express.js, MongoDB, and React.js.
 
