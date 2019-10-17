@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
-const ScanResultSchema = new Schema({
+const Schema = new Schema({
     status: {
         type: String,
         required: true
@@ -32,4 +32,4 @@ const ScanResultSchema = new Schema({
     }
 });
 
-module.exports = Item = mongoose.model('scanresult', ScanResultSchema);
+module.exports = Item = mongoose.model('Scan', Schema);

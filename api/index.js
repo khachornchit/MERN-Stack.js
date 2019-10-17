@@ -19,13 +19,13 @@ mongoose
         'mongodb://mongo:27017/docker-node-mongo',
         { useNewUrlParser: true }
     )
-    .then(() => console.log('MongoDB Connected Successfully !'))
+    .then(() => console.log('MongoDB connected successfully !'))
     .catch(err => console.log(err));
 
 app.get('/', function (req, res) {
     res.json(
         {
-            "REST API": "Security Scan Results API",
+            "Description": "Security scan result API",
             "Endpoint": "http://localhost:8082/api"
         }
     );
@@ -36,7 +36,7 @@ app.listen(port, function () {
 })
 
 // mongodb api/scanresult --------------------------------------------------------
-const ScanResult = require('./models/ScanResult');
+const ScanResult = require('./models/scan.model');
 
 app.get('/api/scanresults', (req, res) => {
     ScanResult.find()
