@@ -3,13 +3,12 @@
 # MERN Stack Development
 Full stack development with DevOps, Backend, and Front-end using docker container, Node.js, Express.js, MongoDB, and React.js.
 
-## Tech Stack
-* MongoDB
-* Express.js
+## Technology Stack
+* Node.js, Express.js
 * React, React Boostrap
-* Node.js
+* MongoDB
 * Docker
-* Travis CI
+* CICD Integration
 
 ## Pre-requires
 * Install [Docker](https://www.docker.com/)
