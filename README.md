@@ -8,7 +8,6 @@ Full stack development with DevOps, Backend, and Front-end using docker containe
 * React, React Boostrap
 * MongoDB
 * Docker
-* CICD Integration
 
 ## Pre-requires
 * Install [Docker](https://www.docker.com/)
