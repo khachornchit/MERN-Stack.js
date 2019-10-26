@@ -15,11 +15,11 @@ It is a full stack development project using MERN stack consisting of MongoDB, E
 ## Getting started
 * Clone the repository
 ```
-git clone https://github.com/Khachornchit/mern-stack-development
+git clone https://github.com/khachornchit/MERN-stack
 ```
 * Build the project
 ```
-cd mern-stack-development
+cd MERN-stack
 docker-compose build
 docker-compose up -d
 ```
