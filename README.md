@@ -3,11 +3,10 @@
 # MERN stack
 It is a full stack development project using MERN stack consisting of MongoDB, Express.js, React.js, and Node.js. And using docker container.
 
-## Tech Stack
-* MongoDB
-* Express.js
+## Technology Stack
+* Node.js, Express.js
 * React, React Boostrap
-* Node.js
+* MongoDB
 * Docker
 
 ## Pre-requires
