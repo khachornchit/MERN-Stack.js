@@ -1,15 +1,14 @@
 [![Build Status](https://travis-ci.org/khachornchit/MERN-stack.svg?branch=master)](https://travis-ci.org/khachornchit/MERN-Stack)
 
-# MERN stack
-It is a full stack development project using MERN stack consisting of MongoDB, Express.js, React.js, and Node.js. And using docker container.
+# MERN Stack
+MERN stack using MongoDB, Express.js, React.js, Node.js, and Docker-compose. Front-End development using React.js, Back-End development using Node.js and MongoDB.
 
 ## Technology Stack
-* Node.js, Express.js
-* React, React Boostrap
-* MongoDB
-* Docker
+* Back-End development using Node.js, Express.js, MongoDB
+* Front-End development using React, React Boostrap
+* Docker-compose
 
-## Pre-requires
+## Prerequisites
 * Install [Docker](https://www.docker.com/)
 
 ## Getting started
