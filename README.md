@@ -1,7 +1,7 @@
 [![Build Status](https://travis-ci.org/khachornchit/MERN-stack.svg?branch=master)](https://travis-ci.org/khachornchit/MERN-Stack)
 
 # MERN Stack
-MERN stack using MongoDB, Express.js, React.js, Node.js, and Docker-compose. Front-End development using React.js, Back-End development using Node.js and MongoDB.
+MERN stack development using MongoDB, Express.js, React.js, Node.js, and Docker-compose. Front-End development using React.js, Back-End development using Node.js and MongoDB.
 
 ## Technology Stack
 * Back-End development using Node.js, Express.js, MongoDB
